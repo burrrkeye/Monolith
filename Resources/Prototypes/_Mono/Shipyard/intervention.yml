@@ -1,0 +1,41 @@
+# Author Info
+# Hi guys its me burki
+# 
+
+# Shuttle Notes:
+# big gun good smal gun bad
+- type: vessel
+  id: Intervention
+  parent: BaseVessel
+  name: BT-Y Intervention
+  description: A long ranged railgun ship. Built around its main armanent, the M381 Charon Mass Driver alongside two Dravon 57mm and 2 20mm point defense turrets.
+  price: 65000
+  category: Medium
+  group: Shipyard
+  access: Mercenary
+  shuttlePath: /Maps/_Mono/Shuttles/intervention.yml
+  guidebookPage: Null
+  class:
+  - Pursuit
+  engine:
+  - Uranium
+
+- type: gameMap
+  id: Intervention
+  mapName: 'BT-Y Intervention'
+  mapPath: /Maps/_Mono/Shuttles/intervention.yml
+  minPlayers: 0
+  stations:
+    Intervention:
+      stationProto: StandardFrontierVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Intervention MIL{1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          availableJobs:
+            Contractor: [ 0, 0 ]
+            Pilot: [ 0, 0 ]
+            Mercenary: [ 0, 0 ]
