@@ -1,15 +1,15 @@
 # Author Info
-# Hi guys its me burki
-# 
+# discord : burkia
+# github : burrrkeye
 
 # Shuttle Notes:
-# big gun good smal gun bad
+# big gun good smal gun bad, best ship ever!?
 - type: vessel
   id: Intervention
   parent: BaseVessel
   name: BT-Y Intervention
   description: A long ranged railgun ship. Built around its main armanent, the M381 Charon Mass Driver alongside two Dravon 57mm and 2 20mm point defense turrets.
-  price: 65000
+  price: 85000
   category: Medium
   group: Shipyard
   access: Mercenary
