@@ -22,7 +22,7 @@
   name: BT-Y Intervention
   description: A long ranged railgun ship. Built around its main armanent, the M381 Charon Mass Driver alongside two Dravon 57mm and 2 20mm point defense turrets.
   price: 85000
-  category: Medium
+  category: Small
   group: Shipyard
   access: Mercenary
   shuttlePath: /Maps/_Mono/Shuttles/intervention.yml
