@@ -12278,3 +12278,26 @@ Entries:
   id: 1361
   time: '2025-09-08T02:08:51.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2250
+- author: kyres1
+  changes:
+    - type: Tweak
+      message: Capital plastitanium walls use a separate texture and name now.
+  id: 1362
+  time: '2025-09-09T00:12:13.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2262
+- author: starch70
+  changes:
+    - type: Add
+      message: Added Tayfun and Strayk to USSP shipyard.
+  id: 1363
+  time: '2025-09-09T00:13:53.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2254
+- author: Avalon-Proto
+  changes:
+    - type: Tweak
+      message: >-
+        The RAC-30 Now has a DOUBLED Fire rate thanks to optimizations by The
+        Pantheon collective
+  id: 1364
+  time: '2025-09-09T00:55:07.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2264
