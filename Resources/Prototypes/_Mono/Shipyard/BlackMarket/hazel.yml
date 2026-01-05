@@ -1,0 +1,34 @@
+- type: vessel
+  id: Hazel
+  parent: BaseVesselAntag
+  name: BT-Y Hazel
+  description: An old ship that used to be an advertisement platform for Hydra 220mm Cannon. Moderately armored and armed with a Hydra 3 barreled 220mm cannon, a Draupnir 30mm autocannon and 2 L85 20mm autocannons. Doesn't have an FTL drive.
+  price: 72000
+  category: Small
+  group: BlackMarket
+  access: Pirate
+  shuttlePath: /Maps/_Mono/Shuttles/BlackMarket/hazel.yml
+  guidebookPage: Null
+  class:
+  - Pirate
+  engine:
+  - Uranium
+
+- type: gameMap
+  id: Hazel
+  mapName: 'BT-Y Hazel'
+  mapPath: /Maps/_Mono/Shuttles/BlackMarket/hazel.yml
+  minPlayers: 0
+  stations:
+    Hazel:
+      stationProto: StandardFrontierVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Hazel PDV{1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          availableJobs:
+            Pirate: [ 0, 0 ]
+            PdvBorg: [ 0, 0 ]
