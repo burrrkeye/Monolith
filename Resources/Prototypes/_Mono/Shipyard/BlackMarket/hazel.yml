@@ -3,7 +3,7 @@
   parent: BaseVesselAntag
   name: BT-Y Hazel
   description: An old ship that used to be an advertisement platform for Hydra 220mm Cannon. Moderately armored and armed with a Hydra 3 barreled 220mm cannon, a Draupnir 30mm autocannon and 2 L85 20mm autocannons. Doesn't have an FTL drive.
-  price: 72000
+  price: 65000
   category: Small
   group: BlackMarket
   access: Pirate
