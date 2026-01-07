@@ -8,11 +8,11 @@
     eyes: ClothingEyesThermalVisionGoggles
     ears: ClothingHeadsetAltFreelancer
     gloves: ClothingHandsGlovesTacticalCombatBlack
-    outerClothing: ClothingOuterHardsuitPDVStellic
+    outerClothing: ClothingOuterHardsuitPDVStellicCommander
     shoes: ClothingShoesBootsMagAdv
     id: PDVAsvaranPDA
     pocket1: CrowbarPocket
-    pocket2: WeaponEnergyRevolver
+    pocket2: WeaponAnaconda
     belt: ClothingBeltWebbingsNormalBlack
     neck: ClothingNeckIFFOrange
     suitStorage: OxygenTankFilled
@@ -55,7 +55,7 @@
     shoes: ClothingShoesBootsMagAdv
     id: PDVRakhshanPDA
     pocket1: CrowbarPocket
-    pocket2: WeaponEnergyRevolver
+    pocket2: WeaponAnaconda
     belt: ClothingBeltWebbingsNormalBlack
     neck: ClothingNeckIFFOrange
     suitStorage: OxygenTankFilled
@@ -98,7 +98,7 @@
     shoes: ClothingShoesBootsMagAdv
     id: PDVRakhshanPDA
     pocket1: CrowbarPocket
-    pocket2: WeaponEnergyRevolver
+    pocket2: WeaponAnaconda
     belt: ClothingBeltWebbingsBigBlack
     neck: ClothingNeckIFFOrange
     suitStorage: OxygenTankFilled
@@ -142,11 +142,11 @@
     eyes: ClothingEyesThermalVisionGoggles
     ears: ClothingHeadsetAltFreelancer
     gloves: ClothingHandsGlovesTacticalCombatBlack
-    outerClothing: ClothingOuterHardsuitPDVStellic
+    outerClothing: ClothingOuterHardsuitPDVStellicMedic
     shoes: ClothingShoesBootsMagAdv
     id: PDVRakhshanPDA
     pocket1: CrowbarPocket
-    pocket2: WeaponEnergyRevolver
+    pocket2: WeaponAnaconda
     belt: ClothingBeltWebbingsNormalBlack
     neck: ClothingNeckIFFNeutral
     suitStorage: OxygenTankFilled
@@ -194,7 +194,7 @@
     shoes: ClothingShoesBootsMagAdv
     id: PDVRakhshanPDA
     pocket1: CrowbarPocket
-    pocket2: WeaponEnergyRevolver
+    pocket2: WeaponAnaconda
     belt: ClothingBeltWebbingsNormalBlack
     neck: ClothingNeckIFFOrange
     suitStorage: OxygenTankFilled
