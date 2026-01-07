@@ -41,3 +41,27 @@
     sprite: _Mono/Clothing/Head/Hardsuits/pdv_stellic.rsi
   - type: Clothing
     sprite: _Mono/Clothing/Head/Hardsuits/pdv_stellic.rsi
+  - type: ShowJobIcons
+  - type: ThermalVision
+    flashDurationMultiplier: 2
+    pulseTime: 4
+    isEquipment: true
+    toggleAction: PulseThermalVision
+  
+- type: entity
+  parent: ClothingHeadHelmetHardsuitSyndieElite
+  id: ClothingHeadHelmetHardsuitPDVStellic
+  name: PDV CV-53-S combat hardsuit helmet
+  description: Based off of the CV-53-S, outfitted an inbuilt health visor.
+  components:
+  - type: Sprite
+    sprite: _Mono/Clothing/Head/Hardsuits/pdv_stellic_medic.rsi
+  - type: Clothing
+    sprite: _Mono/Clothing/Head/Hardsuits/pdv_stellic_medic.rsi
+  - type: ShowJobIcons
+  - type: ThermalVision
+    flashDurationMultiplier: 2
+    pulseTime: 4
+    isEquipment: true
+    toggleAction: PulseThermalVision
+  - type: ShowHealthBars
