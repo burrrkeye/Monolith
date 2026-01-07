@@ -195,3 +195,157 @@
     radius: 1.4
     energy: 2
     color: "#5dd439"
+
+- type: entity
+  parent: [ ClothingOuterHardsuitSyndieElite, EnergyShieldClothing ]
+  id: ClothingOuterHardsuitPDVStellicMedic
+  name: PDV CV-53-S-M combat hardsuit
+  description: CV-53-S-M is a further modification of the CV-53-S featuring a lighter frame that sacrifices armor replacing it with a special padding that boost the wearer's speed.
+  components:
+  - type: Sprite
+    sprite: _Mono/Clothing/OuterClothing/Hardsuits/pdv_stellic_medic.rsi
+  - type: Clothing
+    sprite: _Mono/Clothing/OuterClothing/Hardsuits/pdv_stellic_medic.rsi
+  - type: ToggleableClothing
+    requiredSlot: outerclothing
+    blockUnequipWhenAttached: false
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitPDVStellicMedic
+      helmetcover: ClothingHeadHelmetCoverBlock
+      helmetattachment: ClothingHeadHelmetAttachmentBlock
+  - type: ExplosionResistance
+    damageCoefficient: 0.2
+  - type: FireProtection
+    reduction: 0.8
+  - type: Armor # Mono - Armor Value Changes
+    modifiers:
+      coefficients:
+        Blunt: 0.7
+        Slash: 0.7
+        Piercing: 0.7
+        Heat: 0.25
+        Radiation: 0.01
+        Caustic: 0.25
+  - type: Item
+    size: Huge
+  - type: ClothingSpeedModifier
+    walkModifier: 1.0
+    sprintModifier: 1.2
+  - type: Tag
+    tags:
+    - RogueHardsuit
+  # Shielding
+  - type: Blocking
+    passiveBlockModifier:
+      coefficients:
+        Blunt: 0.1
+        Slash: 0.1
+        Piercing: 0.1
+        Heat: 0.1
+    activeBlockModifier:
+      coefficients:
+        Blunt: 0.1
+        Slash: 0.1
+        Piercing: 0.1
+        Heat: 0.1
+      flatReductions:
+        Heat: 5
+    passiveBlockFraction: 1.0
+    activeBlockFraction: 1.0
+    isClothing: true
+  - type: Damageable
+    damageContainer: Shield
+  - type: Battery
+    maxCharge: 12
+    startingCharge: 12
+  - type: BatterySelfRecharger
+    autoRecharge: true
+    autoRechargeRate: 2
+  - type: RechargeableBlocking
+    chargedRechargeRate: 0
+    dischargedRechargeRate: 0.5
+  - type: UseDelay
+    delay: 10
+  - type: PointLight
+    enabled: false
+    radius: 1.4
+    energy: 2
+    color: "#5dd439"
+
+- type: entity
+  parent: [ ClothingOuterHardsuitSyndieElite, EnergyShieldClothing ]
+  id: ClothingOuterHardsuitPDVStellicCommander
+  name: PDV CV-53-S-C combat hardsuit
+  description: CV-53-S-C is a further modification of the CV-53-S, given rank markings and further improvements of the inbuilt shield generator.
+  components:
+  - type: Sprite
+    sprite: _Mono/Clothing/OuterClothing/Hardsuits/pdv_stellic_commander.rsi
+  - type: Clothing
+    sprite: _Mono/Clothing/OuterClothing/Hardsuits/pdv_stellic_commander.rsi
+  - type: ToggleableClothing
+    requiredSlot: outerclothing
+    blockUnequipWhenAttached: false
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitPDVStellic
+      helmetcover: ClothingHeadHelmetCoverBlock
+      helmetattachment: ClothingHeadHelmetAttachmentBlock
+  - type: ExplosionResistance
+    damageCoefficient: 0.2
+  - type: FireProtection
+    reduction: 0.8
+  - type: Armor # Mono - Armor Value Changes
+    modifiers:
+      coefficients:
+        Blunt: 0.7
+        Slash: 0.7
+        Piercing: 0.6
+        Heat: 0.15
+        Radiation: 0.01
+        Caustic: 0.25
+  - type: Item
+    size: Huge
+  - type: ClothingSpeedModifier
+    walkModifier: 1.0
+    sprintModifier: 1.0 # 0.9-> 1 Mono
+  - type: Tag
+    tags:
+    - RogueHardsuit
+  # Shielding
+  - type: Blocking
+    passiveBlockModifier:
+      coefficients:
+        Blunt: 0.2
+        Slash: 0.2
+        Piercing: 0.2
+        Heat: 0.2
+    activeBlockModifier:
+      coefficients:
+        Blunt: 0.2
+        Slash: 0.2
+        Piercing: 0.2
+        Heat: 0.2
+      flatReductions:
+        Heat: 5
+    passiveBlockFraction: 1.0
+    activeBlockFraction: 1.0
+    isClothing: true
+  - type: Damageable
+    damageContainer: Shield
+  - type: Battery
+    maxCharge: 20
+    startingCharge: 20
+  - type: BatterySelfRecharger
+    autoRecharge: true
+    autoRechargeRate: 4
+  - type: RechargeableBlocking
+    chargedRechargeRate: 0
+    dischargedRechargeRate: 1
+  - type: UseDelay
+    delay: 10
+  - type: PointLight
+    enabled: false
+    radius: 1.4
+    energy: 2
+    color: "#5dd439"
