@@ -8,7 +8,7 @@
     eyes: ClothingEyesThermalVisionGoggles
     ears: ClothingHeadsetAltFreelancer
     gloves: ClothingHandsGlovesTacticalCombatBlack
-    outerClothing: ClothingOuterHardsuitAshenElite
+    outerClothing: ClothingOuterHardsuitPDVStellic
     shoes: ClothingShoesBootsMagAdv
     id: PDVAsvaranPDA
     pocket1: CrowbarPocket
@@ -51,7 +51,7 @@
     eyes: ClothingEyesThermalVisionGoggles
     ears: ClothingHeadsetAltFreelancer
     gloves: ClothingHandsGlovesTacticalCombatBlack
-    outerClothing: ClothingOuterHardsuitAshenElite
+    outerClothing: ClothingOuterHardsuitPDVStellic
     shoes: ClothingShoesBootsMagAdv
     id: PDVRakhshanPDA
     pocket1: CrowbarPocket
@@ -94,7 +94,7 @@
     eyes: ClothingEyesThermalVisionGoggles
     ears: ClothingHeadsetAltFreelancer
     gloves: ClothingHandsGlovesTacticalCombatBlack
-    outerClothing: ClothingOuterHardsuitAshenElite
+    outerClothing: ClothingOuterHardsuitPDVStellic
     shoes: ClothingShoesBootsMagAdv
     id: PDVRakhshanPDA
     pocket1: CrowbarPocket
@@ -142,7 +142,7 @@
     eyes: ClothingEyesThermalVisionGoggles
     ears: ClothingHeadsetAltFreelancer
     gloves: ClothingHandsGlovesTacticalCombatBlack
-    outerClothing: ClothingOuterHardsuitAshenElite
+    outerClothing: ClothingOuterHardsuitPDVStellic
     shoes: ClothingShoesBootsMagAdv
     id: PDVRakhshanPDA
     pocket1: CrowbarPocket
@@ -190,7 +190,7 @@
     eyes: ClothingEyesThermalVisionGoggles
     ears: ClothingHeadsetAltFreelancer
     gloves: ClothingHandsGlovesTacticalCombatBlack
-    outerClothing: ClothingOuterHardsuitAshenElite
+    outerClothing: ClothingOuterHardsuitPDVStellic
     shoes: ClothingShoesBootsMagAdv
     id: PDVRakhshanPDA
     pocket1: CrowbarPocket
