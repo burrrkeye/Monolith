@@ -120,7 +120,7 @@
     color: "#5dd439"
 
 - type: entity
-  parent: [ ClothingOuterHardsuitPDVStellic, EnergyShieldClothing ]
+  parent: [ ClothingOuterHardsuitSyndieElite, EnergyShieldClothing ]
   id: ClothingOuterHardsuitPDVStellic
   name: PDV CV-53-S combat hardsuit
   description: CV-53-S is a modification of the CV-53 featuring Stellic markings and modifications that give it an edge over the CV-53. Features a slightly better shield-projector and slightly better protection.

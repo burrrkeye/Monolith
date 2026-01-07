@@ -32,7 +32,7 @@
     sprite: _Mono/Clothing/Head/Hardsuits/pdv_vizier.rsi
 
 - type: entity
-  parent: ClothingHeadHelmetHardsuitPDVStellic
+  parent: ClothingHeadHelmetHardsuitSyndieElite
   id: ClothingHeadHelmetHardsuitPDVStellic
   name: PDV CV-53-S combat hardsuit helmet
   description: Based off of the CV-53, outfitted with imperfect nanomalite composition for better protection.
