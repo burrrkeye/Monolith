@@ -197,7 +197,7 @@
     color: "#5dd439"
 
 - type: entity
-  parent: [ ClothingOuterHardsuitSyndieElite, EnergyShieldClothing ]
+  parent: [ ClothingOuterHardsuitPDVStellic, EnergyShieldClothing ]
   id: ClothingOuterHardsuitPDVStellicMedic
   name: PDV CV-53-S-M combat hardsuit
   description: CV-53-S-M is a further modification of the CV-53-S featuring a lighter frame that sacrifices armor replacing it with a special padding that boost the wearer's speed.
@@ -274,7 +274,7 @@
     color: "#5dd439"
 
 - type: entity
-  parent: [ ClothingOuterHardsuitSyndieElite, EnergyShieldClothing ]
+  parent: [ ClothingOuterHardsuitPDVStellic, EnergyShieldClothing ]
   id: ClothingOuterHardsuitPDVStellicCommander
   name: PDV CV-53-S-C combat hardsuit
   description: CV-53-S-C is a further modification of the CV-53-S, given rank markings and further improvements of the inbuilt shield generator.

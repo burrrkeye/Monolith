@@ -50,8 +50,8 @@
   
 - type: entity
   parent: ClothingHeadHelmetHardsuitSyndieElite
-  id: ClothingHeadHelmetHardsuitPDVStellic
-  name: PDV CV-53-S combat hardsuit helmet
+  id: ClothingHeadHelmetHardsuitPDVStellicMedic
+  name: PDV CV-53-S-M combat hardsuit helmet
   description: Based off of the CV-53-S, outfitted an inbuilt health visor.
   components:
   - type: Sprite
