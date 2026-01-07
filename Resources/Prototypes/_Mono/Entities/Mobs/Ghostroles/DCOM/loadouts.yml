@@ -1,0 +1,228 @@
+# TL
+- type: startingGear
+  id: DComTLGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitCombatSuitDigitalBlack
+    back: ClothingBackpackERTEngineer
+    mask: ClothingMaskGasSyndicate
+    eyes: ClothingEyesThermalVisionGoggles
+    ears: ClothingHeadsetAltFreelancer
+    gloves: ClothingHandsGlovesTacticalCombatBlack
+    outerClothing: ClothingOuterHardsuitAshenElite
+    shoes: ClothingShoesBootsMagAdv
+    id: PDVAsvaranPDA
+    pocket1: CrowbarPocket
+    pocket2: WeaponEnergyRevolver
+    belt: ClothingBeltWebbingsNormalBlack
+    neck: ClothingNeckIFFOrange
+    suitStorage: OxygenTankFilled
+  inhand:
+  - WeaponRifleM90
+  storage:
+    back:
+    - RadioHandheldNF
+    - BasePirateUplinkPirateCrew
+    - DoubleEmergencyOxygenTank
+    - MedkitCombatFilled
+    - MedkitCombatFilled
+    - SyringeCaseAltFilled
+    - JetpackMiniFilled
+    - EnergyShield
+    - EnergySword
+    - DeathAcidifierImplanter
+    - PinpointerUniversal
+    belt:
+    - Magazine762x51mmFMJ
+    - Magazine762x51mmFMJ
+    - Magazine762x51mmFMJ
+    - Magazine762x51mmFMJ
+    - Magazine762x51mmIncendiary
+    - AmmoBox762x51mmFMJ
+    - AmmoBox762x51mmIncendiary
+    - HandHeldMassScannerBorg
+
+# Rifleman
+- type: startingGear
+  id: DComRiflemanGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitCombatSuitDigitalBlack
+    back: ClothingBackpackERTEngineer
+    mask: ClothingMaskGasSyndicate
+    eyes: ClothingEyesThermalVisionGoggles
+    ears: ClothingHeadsetAltFreelancer
+    gloves: ClothingHandsGlovesTacticalCombatBlack
+    outerClothing: ClothingOuterHardsuitAshenElite
+    shoes: ClothingShoesBootsMagAdv
+    id: PDVRakhshanPDA
+    pocket1: CrowbarPocket
+    pocket2: WeaponEnergyRevolver
+    belt: ClothingBeltWebbingsNormalBlack
+    neck: ClothingNeckIFFOrange
+    suitStorage: OxygenTankFilled
+  inhand:
+  - WeaponRifleM90
+  storage:
+    back:
+    - RadioHandheldNF
+    - BasePirateUplinkPirateCrew
+    - DoubleEmergencyOxygenTank
+    - MedkitCombatFilled
+    - MedkitCombatFilled
+    - SyringeCaseAltFilled
+    - JetpackMiniFilled
+    - EnergyShield
+    - EnergySword
+    - DeathAcidifierImplanter
+    - PinpointerUniversal
+    belt:
+    - Magazine762x51mmFMJ
+    - Magazine762x51mmFMJ
+    - Magazine762x51mmFMJ
+    - Magazine762x51mmFMJ
+    - Magazine762x51mmIncendiary
+    - AmmoBox762x51mmFMJ
+    - AmmoBox762x51mmIncendiary
+    - HandHeldMassScannerBorg
+
+# Autorifleman
+- type: startingGear
+  id: DComAutoriflemanGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitCombatSuitDigitalBlack
+    back: ClothingBackpackERTEngineer
+    mask: ClothingMaskGasSyndicate
+    eyes: ClothingEyesThermalVisionGoggles
+    ears: ClothingHeadsetAltFreelancer
+    gloves: ClothingHandsGlovesTacticalCombatBlack
+    outerClothing: ClothingOuterHardsuitAshenElite
+    shoes: ClothingShoesBootsMagAdv
+    id: PDVRakhshanPDA
+    pocket1: CrowbarPocket
+    pocket2: WeaponEnergyRevolver
+    belt: ClothingBeltWebbingsBigBlack
+    neck: ClothingNeckIFFOrange
+    suitStorage: OxygenTankFilled
+  inhand:
+  - WeaponLightMachineGunL6
+  storage:
+    back:
+    - RadioHandheldNF
+    - BasePirateUplinkPirateCrew
+    - DoubleEmergencyOxygenTank
+    - MedkitCombatFilled
+    - MedkitCombatFilled
+    - SyringeCaseAltFilled
+    - JetpackMiniFilled
+    - EnergyShield
+    - EnergySword
+    - DeathAcidifierImplanter
+    - PinpointerUniversal
+    - HandHeldMassScannerBorg
+    belt:
+    - Magazine762x39mmBox
+    - Magazine762x39mmBox
+    - Magazine762x39mmBox
+    - Magazine762x39mmBox
+    - Magazine762x39mmBox
+    - Magazine762x39mmBox
+    - Magazine762x39mmBox
+    - Magazine762x39mmBox
+    - Magazine762x39mmBox
+    - Magazine762x39mmBox
+    - Magazine762x39mmBox
+    - Magazine762x39mmBox
+
+# Medic
+- type: startingGear
+  id: DComMedicGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitCombatSuitDigitalBlack
+    back: ClothingBackpackERTEngineer
+    mask: ClothingMaskGasSyndicate
+    eyes: ClothingEyesThermalVisionGoggles
+    ears: ClothingHeadsetAltFreelancer
+    gloves: ClothingHandsGlovesTacticalCombatBlack
+    outerClothing: ClothingOuterHardsuitAshenElite
+    shoes: ClothingShoesBootsMagAdv
+    id: PDVRakhshanPDA
+    pocket1: CrowbarPocket
+    pocket2: WeaponEnergyRevolver
+    belt: ClothingBeltWebbingsNormalBlack
+    neck: ClothingNeckIFFNeutral
+    suitStorage: OxygenTankFilled
+  inhand:
+  - WeaponSubMachineGunAtreides
+  storage:
+    back:
+    - RadioHandheldNF
+    - BasePirateUplinkPirateCrew
+    - DoubleEmergencyOxygenTank
+    - MedkitCombatFilled
+    - MedkitCombatFilled
+    - SyringeCaseAltFilled
+    - JetpackMiniFilled
+    - EnergyShield
+    - EnergySword
+    - DeathAcidifierImplanter
+    - PinpointerUniversal
+    - DefibrillatorSyndicate
+    - EnergyScalpel
+    - EnergyCautery
+    - AdvancedRetractor
+    - BoneGel
+    belt:
+    - Magazine57x28mmSubMachineGunFMJ
+    - Magazine57x28mmSubMachineGunFMJ
+    - Magazine57x28mmSubMachineGunFMJ
+    - Magazine57x28mmSubMachineGunFMJ
+    - Magazine57x28mmSubMachineGunIncendiary
+    - AmmoBox57x28mmFMJ
+    - AmmoBox57x28mmIncendiary
+    - HandHeldMassScannerBorg
+
+# Technician
+- type: startingGear
+  id: DComTechnicianGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitCombatSuitDigitalBlack
+    back: ClothingBackpackERTEngineer
+    mask: ClothingMaskGasSyndicate
+    eyes: ClothingEyesThermalVisionGoggles
+    ears: ClothingHeadsetAltFreelancer
+    gloves: ClothingHandsGlovesTacticalCombatBlack
+    outerClothing: ClothingOuterHardsuitAshenElite
+    shoes: ClothingShoesBootsMagAdv
+    id: PDVRakhshanPDA
+    pocket1: CrowbarPocket
+    pocket2: WeaponEnergyRevolver
+    belt: ClothingBeltWebbingsNormalBlack
+    neck: ClothingNeckIFFOrange
+    suitStorage: OxygenTankFilled
+  inhand:
+  - WeaponRifleM90
+  storage:
+    back:
+    - RadioHandheldNF
+    - BasePirateUplinkPirateCrew
+    - DoubleEmergencyOxygenTank
+    - MedkitCombatFilled
+    - SyringeCaseAltFilled
+    - JetpackMiniFilled
+    - EnergyShield
+    - EnergySword
+    - DeathAcidifierImplanter
+    - PinpointerUniversal
+    - ClothingMaskWeldingGas
+    - WelderExperimental
+    - PowerDrill
+    - SyndicateJawsOfLife
+    - Multitool
+    belt:
+    - Magazine762x51mmFMJ
+    - Magazine762x51mmFMJ
+    - Magazine762x51mmFMJ
+    - AmmoBox762x51mmFMJ
+    - C4
+    - C4
+    - C4
+    - HandHeldMassScannerBorg
