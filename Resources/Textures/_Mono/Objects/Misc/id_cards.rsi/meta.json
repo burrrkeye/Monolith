@@ -24,6 +24,15 @@
         },
         {
             "name": "id_denasvar"
+        },
+        {
+            "name": "id_dcom"
+        },
+        {
+            "name": "id_dcom_medic"
+        },
+        {
+            "name": "id_dcom_commander"
         }
     ]
 }

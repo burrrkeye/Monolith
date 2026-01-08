@@ -1,6 +1,6 @@
-# TL
+# Commander
 - type: startingGear
-  id: DComTLGear
+  id: DComCommanderGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitCombatSuitDigitalBlack
     back: ClothingBackpackERTEngineer
@@ -10,9 +10,9 @@
     gloves: ClothingHandsGlovesTacticalCombatBlack
     outerClothing: ClothingOuterHardsuitPDVStellicCommander
     shoes: ClothingShoesBootsMagAdv
-    id: PDVAsvaranPDA
+    id: DCOMCommanderPDA
     pocket1: CrowbarPocket
-    pocket2: WeaponAnaconda
+    pocket2: WeaponPistolAnaconda
     belt: ClothingBeltWebbingsNormalBlack
     neck: ClothingNeckIFFOrange
     suitStorage: OxygenTankFilled
@@ -53,9 +53,9 @@
     gloves: ClothingHandsGlovesTacticalCombatBlack
     outerClothing: ClothingOuterHardsuitPDVStellic
     shoes: ClothingShoesBootsMagAdv
-    id: PDVRakhshanPDA
+    id: DCOMPDA
     pocket1: CrowbarPocket
-    pocket2: WeaponAnaconda
+    pocket2: WeaponPistolAnaconda
     belt: ClothingBeltWebbingsNormalBlack
     neck: ClothingNeckIFFOrange
     suitStorage: OxygenTankFilled
@@ -96,9 +96,9 @@
     gloves: ClothingHandsGlovesTacticalCombatBlack
     outerClothing: ClothingOuterHardsuitPDVStellic
     shoes: ClothingShoesBootsMagAdv
-    id: PDVRakhshanPDA
+    id: DCOMPDA
     pocket1: CrowbarPocket
-    pocket2: WeaponAnaconda
+    pocket2: WeaponPistolAnaconda
     belt: ClothingBeltWebbingsBigBlack
     neck: ClothingNeckIFFOrange
     suitStorage: OxygenTankFilled
@@ -144,9 +144,9 @@
     gloves: ClothingHandsGlovesTacticalCombatBlack
     outerClothing: ClothingOuterHardsuitPDVStellicMedic
     shoes: ClothingShoesBootsMagAdv
-    id: PDVRakhshanPDA
+    id: DCOMMedicPDA
     pocket1: CrowbarPocket
-    pocket2: WeaponAnaconda
+    pocket2: WeaponPistolAnaconda
     belt: ClothingBeltWebbingsNormalBlack
     neck: ClothingNeckIFFNeutral
     suitStorage: OxygenTankFilled
@@ -192,9 +192,9 @@
     gloves: ClothingHandsGlovesTacticalCombatBlack
     outerClothing: ClothingOuterHardsuitPDVStellic
     shoes: ClothingShoesBootsMagAdv
-    id: PDVRakhshanPDA
+    id: DCOMPDA
     pocket1: CrowbarPocket
-    pocket2: WeaponAnaconda
+    pocket2: WeaponPistolAnaconda
     belt: ClothingBeltWebbingsNormalBlack
     neck: ClothingNeckIFFOrange
     suitStorage: OxygenTankFilled

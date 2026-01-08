@@ -75,6 +75,30 @@
 
 - type: jobIcon
   parent: JobIcon
+  id: JobIconDCOMCommander
+  icon:
+    sprite: /Textures/_Mono/Interface/Misc/job_icons.rsi
+    state: DCOMCommander
+  jobName: job-name-dcom-commander
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconDCOM
+  icon:
+    sprite: /Textures/_Mono/Interface/Misc/job_icons.rsi
+    state: DCOM
+  jobName: job-name-dcom
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconDCOMMedic
+  icon:
+    sprite: /Textures/_Mono/Interface/Misc/job_icons.rsi
+    state: DCOMMedic
+  jobName: job-name-dcom-medic
+
+- type: jobIcon
+  parent: JobIcon
   id: JobIconSecurityGuard
   icon:
     sprite: /Textures/Interface/Misc/job_icons.rsi

@@ -37,17 +37,17 @@
   groups:
   - GroupEVATank
 
-# TL
+# Commander
 - type: entity
   parent: MobHumanDComBase
-  id: MobHumanDComTL
-  name: DCOM team leader
+  id: MobHumanDComCommander
+  name: DCOM commander
   components:
   - type: Loadout
-    prototypes: [DComTLGear]
+    prototypes: [DComCommanderGear]
     roleLoadout: [RoleSurvivalTankOnly]
   - type: GhostRole
-    name: ghost-role-information-dcom-tl-name
+    name: ghost-role-information-dcom-commander-name
     description: ghost-role-information-dcom-description
     rules: ghost-role-information-dcom-rules
     raffle:
@@ -63,7 +63,7 @@
     prototypes: [DComRiflemanGear]
     roleLoadout: [RoleSurvivalTankOnly]
   - type: GhostRole
-    name: ghost-role-information-dcom-rifleman-name
+    name: ghost-role-information-dcom-name
     description: ghost-role-information-dcom-description
     rules: ghost-role-information-dcom-rules
     raffle:
