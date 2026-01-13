@@ -1,13 +1,13 @@
 - type: vessel
-  id: Dagger
+  id: Gazer
   parent: BaseVesselAntag
-  name: TSF-SKR Dagger
-  description: Straight from the shipyards of Sol, this ship is equipped with a mass driver as its main armament for long-range fire support.
-  price: 120000
+  name: TSF-BNN Gazer
+  description: Gazer is a long-range railgun ship with otherwise ordinary armanent. Sol Invictus.  
+  price: 135000
   category: Medium
   group: Security
   access: Security
-  shuttlePath: /Maps/_Mono/Shuttles/Nfsd/dagger.yml
+  shuttlePath: /Maps/_Mono/Shuttles/Nfsd/gazer.yml
   guidebookPage: Null
   class:
   - Patrol
@@ -16,16 +16,16 @@
   - AME
 
 - type: gameMap
-  id: Dagger
-  mapName: 'Dagger'
-  mapPath: /Maps/_Mono/Shuttles/Nfsd/dagger.yml
+  id: Gazer
+  mapName: 'Gazer'
+  mapPath: /Maps/_Mono/Shuttles/Nfsd/gazer.yml
   minPlayers: 0
   stations:
-    Dagger:
+    Gazer:
       stationProto: StandardFrontierSecurityVessel
       components:
       - type: StationNameSetup
-        mapNameTemplate: 'Dagger TSF{1}'
+        mapNameTemplate: 'Gazer TSF{1}'
         nameGenerator:
           !type:NanotrasenNameGenerator
           prefixCreator: '14'
