@@ -16145,3 +16145,23 @@ Entries:
   id: 1789
   time: '2026-01-12T21:32:36.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/3004
+- author: NazrinNya
+  changes:
+    - type: Add
+      message: Added new "snicker" emote for lizards.
+    - type: Remove
+      message: Hotbar scream has been disabled.
+    - type: Remove
+      message: '"Yip" and "Weh" were removed as usable emotes for lizards.'
+    - type: Tweak
+      message: Lizard laugh and scream changes were reverted.
+  id: 1790
+  time: '2026-01-14T18:56:38.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3037
+- author: Avalon-Proto
+  changes:
+    - type: Add
+      message: Overseers rejoice, your weapons of office have arrived
+  id: 1791
+  time: '2026-01-15T12:30:33.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3035
