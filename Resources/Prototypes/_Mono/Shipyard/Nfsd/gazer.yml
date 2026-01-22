@@ -2,8 +2,8 @@
   id: Gazer
   parent: BaseVesselAntag
   name: TSF-BNN Gazer
-  description: Gazer is a long-range railgun ship with otherwise ordinary armanent. Sol Invictus.  
-  price: 135000
+  description: Gazer is a long-range railgun artillery ship with advanced systems and otherwise ordinary armanent.
+  price: 155000
   category: Medium
   group: Security
   access: Security
@@ -13,7 +13,7 @@
   - Patrol
   - Pursuit
   engine:
-  - AME
+  - Plasma
 
 - type: gameMap
   id: Gazer
