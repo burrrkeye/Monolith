@@ -1,0 +1,149 @@
+- type: job
+  id: PdvSCLeader
+  name: ghost-role-information-sc-leader-name
+  description: ghost-role-information-sc-description
+  playTimeTracker: JobPdvSCLeader
+  requirements:
+  - !type:OverallPlaytimeRequirement
+    time: 108000 # 30 hours
+  startingGear: SCLeaderGear
+  icon: "JobIconSCLeader"
+  supervisors: job-supervisors-ws
+  canBeAntag: false
+  setPreference: false
+  accessGroups:
+  - AllAccess
+  special:
+  - !type:AddComponentSpecial
+    components:
+    - type: NpcFactionMember
+      factions:
+      - PDV
+  - !type:AddLanguageSpecial
+    languagesSpoken:
+    - Asher
+    languagesUnderstood:
+    - Asher
+
+- type: playTimeTracker
+  id: JobPdvSCLeader
+
+- type: job
+  id: PdvSCRifleman
+  name: ghost-role-information-sc-name
+  description: ghost-role-information-sc-description
+  playTimeTracker: JobPdvSC
+  requirements:
+  - !type:OverallPlaytimeRequirement
+    time: 108000 # 30 hours
+  startingGear: SCRiflemanGear
+  icon: "JobIconSC"
+  supervisors: job-supervisors-ws
+  canBeAntag: false
+  setPreference: false
+  accessGroups:
+  - AllAccess
+  special:
+  - !type:AddComponentSpecial
+    components:
+    - type: NpcFactionMember
+      factions:
+      - PDV
+  - !type:AddLanguageSpecial
+    languagesSpoken:
+    - Asher
+    languagesUnderstood:
+    - Asher
+
+- type: playTimeTracker
+  id: JobPdvSC
+
+- type: job
+  id: PdvSCMedic
+  name: ghost-role-information-sc-medic-name
+  description: ghost-role-information-sc-description
+  playTimeTracker: JobPdvSCMedic
+  requirements:
+  - !type:OverallPlaytimeRequirement
+    time: 108000 # 30 hours
+  startingGear: SCMedic
+  icon: "JobIconSCMedic"
+  supervisors: job-supervisors-ws
+  canBeAntag: false
+  setPreference: false
+  accessGroups:
+  - AllAccess
+  special:
+  - !type:AddComponentSpecial
+    components:
+    - type: NpcFactionMember
+      factions:
+      - PDV
+  - !type:AddLanguageSpecial
+    languagesSpoken:
+    - Asher
+    languagesUnderstood:
+    - Asher
+
+- type: playTimeTracker
+  id: JobPdvSCMedic
+
+- type: job
+  id: PdvSCAutorifleman
+  name: ghost-role-information-sc-autorifleman-name
+  description: ghost-role-information-sc-description
+  playTimeTracker: JobPdvSCAutorifleman
+  requirements:
+  - !type:OverallPlaytimeRequirement
+    time: 108000 # 30 hours
+  startingGear: SCAutoriflemanGear
+  icon: "JobIconSCAutorifleman"
+  supervisors: job-supervisors-ws
+  canBeAntag: false
+  setPreference: false
+  accessGroups:
+  - AllAccess
+  special:
+  - !type:AddComponentSpecial
+    components:
+    - type: NpcFactionMember
+      factions:
+      - PDV
+  - !type:AddLanguageSpecial
+    languagesSpoken:
+    - Asher
+    languagesUnderstood:
+    - Asher
+
+- type: playTimeTracker
+  id: JobPdvSCAutorifleman
+
+- type: job
+  id: PdvSCTechnician
+  name: ghost-role-information-sc-technician-name
+  description: ghost-role-information-sc-description
+  playTimeTracker: JobPdvSCTechnician
+  requirements:
+  - !type:OverallPlaytimeRequirement
+    time: 108000 # 30 hours
+  startingGear: SCTechnicianGear
+  icon: "JobIconSCTechnician"
+  supervisors: job-supervisors-ws
+  canBeAntag: false
+  setPreference: false
+  accessGroups:
+  - AllAccess
+  special:
+  - !type:AddComponentSpecial
+    components:
+    - type: NpcFactionMember
+      factions:
+      - PDV
+  - !type:AddLanguageSpecial
+    languagesSpoken:
+    - Asher
+    languagesUnderstood:
+    - Asher
+
+- type: playTimeTracker
+  id: JobPdvSCTechnician

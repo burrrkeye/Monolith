@@ -159,32 +159,6 @@
 
 - type: entity
   parent: PirateIDCard
-  id: DCOMMedicIDCard
-  name: DCOM medic id card
-  components:
-  - type: PresetIdCard
-    job: DCOMMedic
-  - type: Sprite
-    sprite: _Mono/Objects/Misc/id_cards.rsi
-    layers:
-    - state: base
-    - state: id_dcom_medic
-
-- type: entity
-  parent: PirateIDCard
-  id: DCOMIDCard
-  name: DCOM id card
-  components:
-  - type: PresetIdCard
-    job: DCOM
-  - type: Sprite
-    sprite: _Mono/Objects/Misc/id_cards.rsi
-    layers:
-    - state: base
-    - state: id_dcom
-
-- type: entity
-  parent: PirateIDCard
   id: PDVDenasvarIDCard
   name: PDV Denasvar ID card
   description: An identification card of one of the veteran foot soldiers among the Dynasty's Vanguard.
@@ -224,19 +198,6 @@
     - state: id_vizier
 
 - type: entity
-  parent: PirateIDCard
-  id: DCOMCommanderIDCard
-  name: DCOM commander ID card
-  components:
-  - type: PresetIdCard
-    job: DCOMCommander
-  - type: Sprite
-    sprite: _Mono/Objects/Misc/id_cards.rsi
-    layers:
-    - state: vizierbase
-    - state: id_dcom_commander
-
-- type: entity
   name: spasaka ID card
   parent: [ IDCardStandard, BaseFactionGearPDVT2 ]
   id: PDVSpasakaIDCard
@@ -273,3 +234,75 @@
         type: ChameleonBoundUserInterface
   - type: Contraband # Frontier
     hideValues: true # Frontier
+
+# MARK: SC
+
+- type: entity
+  parent: PirateIDCard
+  id: SCLeaderIDCard
+  name: SC leader ID card
+  components:
+  - type: PresetIdCard
+    job: PdvSCLeader
+  - type: Sprite
+    sprite: _Mono/Objects/Misc/id_cards.rsi
+    layers:
+    - state: vizierbase
+    - state: id_sc_leader
+
+- type: entity
+  parent: PirateIDCard
+  id: SCMedicIDCard
+  name: SC medic id card
+  description: An identification card of one of the elite special forces units of the Dynasty.
+  components:
+  - type: PresetIdCard
+    job: PdvSCMedic
+  - type: Sprite
+    sprite: _Mono/Objects/Misc/id_cards.rsi
+    layers:
+    - state: base
+    - state: id_sc_medic
+
+- type: entity
+  parent: PirateIDCard
+  id: SCAutoriflemanIDCard
+  name: SC autorifleman id card
+  description: An identification card of one of the elite special forces units of the Dynasty.
+  components:
+  - type: PresetIdCard
+    job: PdvSCAutorifleman
+  - type: Sprite
+    sprite: _Mono/Objects/Misc/id_cards.rsi
+    layers:
+    - state: base
+    - state: id_sc_autorifleman
+
+- type: entity
+  parent: PirateIDCard
+  id: SCTechnicianIDCard
+  name: SC technician id card
+  description: An identification card of one of the elite special forces units of the Dynasty.
+  components:
+  - type: PresetIdCard
+    job: PdvSCTechnician
+  - type: Sprite
+    sprite: _Mono/Objects/Misc/id_cards.rsi
+    layers:
+    - state: base
+    - state: id_sc_technician
+
+- type: entity
+  parent: PirateIDCard
+  id: SCRiflemanIDCard
+  name: SC rifleman id card
+  description: An identification card of one of the elite special forces units of the Dynasty.
+  components:
+  - type: PresetIdCard
+    job: PdvSCRifleman
+  - type: Sprite
+    sprite: _Mono/Objects/Misc/id_cards.rsi
+    layers:
+    - state: base
+    - state: id_sc_rifleman
+

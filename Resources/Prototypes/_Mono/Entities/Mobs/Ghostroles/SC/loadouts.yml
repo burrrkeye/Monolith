@@ -1,6 +1,6 @@
 # Commander
 - type: startingGear
-  id: DComCommanderGear
+  id: SCLeaderGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitCombatSuitDigitalBlack
     back: ClothingBackpackERTEngineer
@@ -10,7 +10,7 @@
     gloves: ClothingHandsGlovesTacticalCombatBlack
     outerClothing: ClothingOuterHardsuitPDVStellicCommander
     shoes: ClothingShoesBootsMagAdv
-    id: DCOMCommanderPDA
+    id: SCLeaderPDA
     pocket1: CrowbarPocket
     pocket2: WeaponPistolAnaconda
     belt: ClothingBeltWebbingsNormalBlack
@@ -43,7 +43,7 @@
 
 # Rifleman
 - type: startingGear
-  id: DComRiflemanGear
+  id: SCRiflemanGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitCombatSuitDigitalBlack
     back: ClothingBackpackERTEngineer
@@ -53,7 +53,7 @@
     gloves: ClothingHandsGlovesTacticalCombatBlack
     outerClothing: ClothingOuterHardsuitPDVStellic
     shoes: ClothingShoesBootsMagAdv
-    id: DCOMPDA
+    id: SCRiflemanPDA
     pocket1: CrowbarPocket
     pocket2: WeaponPistolAnaconda
     belt: ClothingBeltWebbingsNormalBlack
@@ -86,7 +86,7 @@
 
 # Autorifleman
 - type: startingGear
-  id: DComAutoriflemanGear
+  id: SCAutoriflemanGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitCombatSuitDigitalBlack
     back: ClothingBackpackERTEngineer
@@ -96,7 +96,7 @@
     gloves: ClothingHandsGlovesTacticalCombatBlack
     outerClothing: ClothingOuterHardsuitPDVStellic
     shoes: ClothingShoesBootsMagAdv
-    id: DCOMPDA
+    id: SCAutoriflemanPDA
     pocket1: CrowbarPocket
     pocket2: WeaponPistolAnaconda
     belt: ClothingBeltWebbingsBigBlack
@@ -134,7 +134,7 @@
 
 # Medic
 - type: startingGear
-  id: DComMedicGear
+  id: SCMedicGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitCombatSuitDigitalBlack
     back: ClothingBackpackERTEngineer
@@ -144,7 +144,7 @@
     gloves: ClothingHandsGlovesTacticalCombatBlack
     outerClothing: ClothingOuterHardsuitPDVStellicMedic
     shoes: ClothingShoesBootsMagAdv
-    id: DCOMMedicPDA
+    id: SCMedicPDA
     pocket1: CrowbarPocket
     pocket2: WeaponPistolAnaconda
     belt: ClothingBeltWebbingsNormalBlack
@@ -182,7 +182,7 @@
 
 # Technician
 - type: startingGear
-  id: DComTechnicianGear
+  id: SCTechnicianGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitCombatSuitDigitalBlack
     back: ClothingBackpackERTEngineer
@@ -192,7 +192,7 @@
     gloves: ClothingHandsGlovesTacticalCombatBlack
     outerClothing: ClothingOuterHardsuitPDVStellic
     shoes: ClothingShoesBootsMagAdv
-    id: DCOMPDA
+    id: SCTechnicianPDA
     pocket1: CrowbarPocket
     pocket2: WeaponPistolAnaconda
     belt: ClothingBeltWebbingsNormalBlack

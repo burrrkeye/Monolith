@@ -1,0 +1,120 @@
+# ye :)
+- type: entity
+  parent: MobHuman
+  id: MobHumanSCBase
+  name: stellic commando base
+  suffix: Human, Base
+  components:
+  - type: RandomHumanoidAppearance
+    randomizeName: True
+  - type: HumanoidAppearance
+    height: 1.0
+    width: 1.0
+  - type: Loadout
+    prototypes: [SCRiflemanGear]
+    roleLoadout: [RoleSurvivalTankOnly]
+  - type: GhostRole
+    name: ghost-role-information-sc-name
+    description: ghost-role-information-sc-description
+    rules: ghost-role-information-sc-rules
+    raffle:
+      settings: short
+  - type: GhostTakeoverAvailable
+  - type: RandomMetadata
+    nameSegments:
+    - NamesFirstMilitary
+    - NamesLastMilitary
+  - type: NpcFactionMember
+    factions:
+    - PDV
+  - type: Company
+    companyName: PDV
+  - type: SurgerySpeedModifier
+    speedModifier: 1.5
+
+- type: roleLoadout
+  id: RoleSurvivalTankOnly
+  groups:
+  - GroupEVATank
+
+# Commander
+- type: entity
+  parent: MobHumanSCBase
+  id: MobHumanSCLeader
+  name: SC leader
+  components:
+  - type: Loadout
+    prototypes: [SCLeaderGear]
+    roleLoadout: [RoleSurvivalTankOnly]
+  - type: GhostRole
+    name: ghost-role-information-sc-leader-name
+    description: ghost-role-information-sc-description
+    rules: ghost-role-information-sc-rules
+    raffle:
+      settings: short
+
+# Rifleman
+- type: entity
+  parent: MobHumanSCBase
+  id: MobHumanSCRifleman
+  name: SC rifleman
+  components:
+  - type: Loadout
+    prototypes: [SCRiflemanGear]
+    roleLoadout: [RoleSurvivalTankOnly]
+  - type: GhostRole
+    name: ghost-role-information-sc-name
+    description: ghost-role-information-sc-description
+    rules: ghost-role-information-sc-rules
+    raffle:
+      settings: short
+
+# Autorifleman
+- type: entity
+  parent: MobHumanSCBase
+  id: MobHumanSCAutorifleman
+  name: SC autorifleman
+  components:
+  - type: Loadout
+    prototypes: [SCAutoriflemanGear]
+    roleLoadout: [RoleSurvivalTankOnly]
+  - type: GhostRole
+    name: ghost-role-information-sc-autorifleman-name
+    description: ghost-role-information-sc-description
+    rules: ghost-role-information-sc-rules
+    raffle:
+      settings: short
+
+# Medic
+- type: entity
+  parent: MobHumanSCBase
+  id: MobHumanSCMedic
+  name: SC medic
+  components:
+  - type: Loadout
+    prototypes: [SCMedicGear]
+    roleLoadout: [RoleSurvivalTankOnly]
+  - type: GhostRole
+    name: ghost-role-information-sc-medic-name
+    description: ghost-role-information-sc-description
+    rules: ghost-role-information-sc-rules
+    raffle:
+      settings: short
+  - type: SurgerySpeedModifier
+    speedModifier: 2.25
+
+# Technician
+- type: entity
+  parent: MobHumanSCBase
+  id: MobHumanSCTechnician
+  name: SC technician
+  components:
+  - type: Loadout
+    prototypes: [SCTechnicianGear]
+    roleLoadout: [RoleSurvivalTankOnly]
+  - type: GhostRole
+    name: ghost-role-information-sc-technician-name
+    description: ghost-role-information-sc-description
+    rules: ghost-role-information-sc-rules
+    raffle:
+      settings: short

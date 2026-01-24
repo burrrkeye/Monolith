@@ -27,13 +27,19 @@
             "name": "PDVAsvaran"
         },
         {
-            "name": "DCOMCommander"
+            "name": "SCLeader"
         },
         {
-            "name": "DCOMMedic"
+            "name": "SCMedic"
         },
         {
-            "name": "DCOM"
+            "name": "SCRifleman"
+        },
+        {
+            "name": "SCAutorifleman"
+        },        
+        {
+            "name": "SCTechnician"
         }
     ]
 }

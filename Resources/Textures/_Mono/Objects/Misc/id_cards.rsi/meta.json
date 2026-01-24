@@ -26,13 +26,19 @@
             "name": "id_denasvar"
         },
         {
-            "name": "id_dcom"
+            "name": "id_sc_rifleman"
         },
         {
-            "name": "id_dcom_medic"
+            "name": "id_sc_medic"
         },
         {
-            "name": "id_dcom_commander"
+            "name": "id_sc_leader"   
+        },        
+        {
+            "name": "id_sc_autorifleman"   
+        },
+                {
+            "name": "id_sc_technician"   
         }
     ]
 }

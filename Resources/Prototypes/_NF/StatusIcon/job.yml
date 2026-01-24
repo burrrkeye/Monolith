@@ -75,27 +75,43 @@
 
 - type: jobIcon
   parent: JobIcon
-  id: JobIconDCOMCommander
+  id: JobIconSCLeader
   icon:
     sprite: /Textures/_Mono/Interface/Misc/job_icons.rsi
-    state: DCOMCommander
-  jobName: job-name-dcom-commander
+    state: SCLeader
+  jobName: job-name-sc-leader
 
 - type: jobIcon
   parent: JobIcon
-  id: JobIconDCOM
+  id: JobIconSCRifleman
   icon:
     sprite: /Textures/_Mono/Interface/Misc/job_icons.rsi
-    state: DCOM
-  jobName: job-name-dcom
+    state: SCRifleman
+  jobName: job-name-sc-rifleman
 
 - type: jobIcon
   parent: JobIcon
-  id: JobIconDCOMMedic
+  id: JobIconSCMedic
   icon:
     sprite: /Textures/_Mono/Interface/Misc/job_icons.rsi
-    state: DCOMMedic
-  jobName: job-name-dcom-medic
+    state: SCMedic
+  jobName: job-name-sc-medic
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconSCAutorifleman
+  icon:
+    sprite: /Textures/_Mono/Interface/Misc/job_icons.rsi
+    state: SCAutorifleman
+  jobName: job-name-sc-autorifleman
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconSCTechnician
+  icon:
+    sprite: /Textures/_Mono/Interface/Misc/job_icons.rsi
+    state: SCTechnician
+  jobName: job-name-sc-technician
 
 - type: jobIcon
   parent: JobIcon
