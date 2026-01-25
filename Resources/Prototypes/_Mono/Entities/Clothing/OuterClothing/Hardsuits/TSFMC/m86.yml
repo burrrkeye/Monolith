@@ -46,13 +46,15 @@
 # MARSOC only
 
 - type: entity
-  parent: [EnergyShieldClothing, ClothingOuterHardsuitM86, BaseFactionGearTSFT3]
+  parent: [EnergyShieldClothing, ClothingOuterHardsuitBase, BaseFactionGearTSFT3]
   id: ClothingOuterHardsuitM86Mk4
   name: M86 Mk.4(B) hardsuit
   description: A limited-production redesign proposal for the M86 Mk.3(R), outfitted with an inbuilt personal shield generator.
   components:
   - type: Sprite
     sprite: _Mono/Clothing/OuterClothing/Hardsuits/m86_mk4.rsi
+  - type: Item
+    size: Huge
   - type: Clothing
     sprite: _Mono/Clothing/OuterClothing/Hardsuits/m86_mk4.rsi
   - type: PressureProtection
@@ -71,6 +73,17 @@
         Poison: 0.825
         Radiation: 0.5
         Caustic: 0.6
+  - type: StaminaDamageResistance
+    coefficient: 0.4
   - type: ClothingSpeedModifier
     walkModifier: 0.9
     sprintModifier: 0.875
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing # Goobstation - Modsuits change - Mono - this is a solution for helmet attachment/cover to not fit on hardsuits
+    requiredSlot: outerclothing
+    blockUnequipWhenAttached: false
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitM86Mk4
+      helmetcover: ClothingHeadHelmetCoverBlock
+      helmetattachment: ClothingHeadHelmetAttachmentBlock

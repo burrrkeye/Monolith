@@ -39,7 +39,7 @@
     - Magazine762x51mmIncendiary
     - AmmoBox762x51mmFMJ
     - AmmoBox762x51mmIncendiary
-    - HandHeldMassScannerBorg
+    - WeaponGrapplingGun
 
 # Rifleman
 - type: startingGear
@@ -82,7 +82,7 @@
     - Magazine762x51mmIncendiary
     - AmmoBox762x51mmFMJ
     - AmmoBox762x51mmIncendiary
-    - HandHeldMassScannerBorg
+    - WeaponGrapplingGun
 
 # Autorifleman
 - type: startingGear
@@ -117,7 +117,7 @@
     - EnergySword
     - DeathAcidifierImplanter
     - PinpointerUniversal
-    - HandHeldMassScannerBorg
+    - WeaponGrapplingGun
     belt:
     - Magazine762x39mmBox
     - Magazine762x39mmBox
@@ -178,7 +178,7 @@
     - Magazine57x28mmSubMachineGunIncendiary
     - AmmoBox57x28mmFMJ
     - AmmoBox57x28mmIncendiary
-    - HandHeldMassScannerBorg
+    - WeaponGrapplingGun
 
 # Technician
 - type: startingGear
@@ -225,4 +225,4 @@
     - C4
     - C4
     - C4
-    - HandHeldMassScannerBorg
+    - WeaponGrapplingGun

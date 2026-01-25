@@ -1,4 +1,4 @@
-ghost-role-information-sc-commander-name = SC Team Commander
+ghost-role-information-sc-leader-name = SC Team Leader
 ghost-role-information-sc-name = SC Rifleman
 ghost-role-information-sc-autorifleman-name = SC Autorifleman
 ghost-role-information-sc-medic-name = SC Medic

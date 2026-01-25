@@ -32,7 +32,7 @@
     sprite: _Mono/Clothing/Head/Hardsuits/pdv_vizier.rsi
 
 - type: entity
-  parent: ClothingHeadHelmetHardsuitSyndieElite
+  parent: [ClothingHeadHelmetHardsuitSyndieElite, ShowSecurityIcons]
   id: ClothingHeadHelmetHardsuitPDVStellic
   name: PDV CV-53-S combat hardsuit helmet
   description: Based off of the CV-53, outfitted with imperfect nanomalite composition for better protection.
@@ -41,15 +41,30 @@
     sprite: _Mono/Clothing/Head/Hardsuits/pdv_stellic.rsi
   - type: Clothing
     sprite: _Mono/Clothing/Head/Hardsuits/pdv_stellic.rsi
-  - type: ShowJobIcons
   - type: ThermalVision
-    flashDurationMultiplier: 2
-    pulseTime: 4
+    activateSound: null
+    deactivateSound: null
     isEquipment: true
-    toggleAction: PulseThermalVision
+    color: "#fc8383"
+    lightRadius: 15
+  - type: HideLayerClothing
+    slots:
+    - Hair
+    - Snout
+    - HeadTop
+    - HeadSide
+  - type: RadarConsole
+    followEntity: true
+  - type: ActivatableUI
+    key: enum.RadarConsoleUiKey.Key
+    singleUser: true
+  - type: UserInterface
+    interfaces:
+      enum.RadarConsoleUiKey.Key:
+        type: RadarConsoleBoundUserInterface
   
 - type: entity
-  parent: ClothingHeadHelmetHardsuitSyndieElite
+  parent: [ClothingHeadHelmetHardsuitSyndieElite, ShowSecurityIcons]
   id: ClothingHeadHelmetHardsuitPDVStellicMedic
   name: PDV CV-53-S-M combat hardsuit helmet
   description: Based off of the CV-53-S, outfitted an inbuilt health visor.
@@ -58,10 +73,25 @@
     sprite: _Mono/Clothing/Head/Hardsuits/pdv_stellic_medic.rsi
   - type: Clothing
     sprite: _Mono/Clothing/Head/Hardsuits/pdv_stellic_medic.rsi
-  - type: ShowJobIcons
   - type: ThermalVision
-    flashDurationMultiplier: 2
-    pulseTime: 4
+    activateSound: null
+    deactivateSound: null
     isEquipment: true
-    toggleAction: PulseThermalVision
+    color: "#00ffee"
+    lightRadius: 15
   - type: ShowHealthBars
+  - type: HideLayerClothing
+    slots:
+    - Hair
+    - Snout
+    - HeadTop
+    - HeadSide
+  - type: RadarConsole
+    followEntity: true
+  - type: ActivatableUI
+    key: enum.RadarConsoleUiKey.Key
+    singleUser: true
+  - type: UserInterface
+    interfaces:
+      enum.RadarConsoleUiKey.Key:
+        type: RadarConsoleBoundUserInterface

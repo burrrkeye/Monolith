@@ -18,12 +18,12 @@
     components:
     - type: NpcFactionMember
       factions:
-      - PDV
+      - NFPirates
   - !type:AddLanguageSpecial
     languagesSpoken:
-    - Asher
+    - Freespeak
     languagesUnderstood:
-    - Asher
+    - Freespeak
 
 - type: playTimeTracker
   id: JobPdvSCLeader
@@ -32,12 +32,12 @@
   id: PdvSCRifleman
   name: ghost-role-information-sc-name
   description: ghost-role-information-sc-description
-  playTimeTracker: JobPdvSC
+  playTimeTracker: JobPdvSCRifleman
   requirements:
   - !type:OverallPlaytimeRequirement
     time: 108000 # 30 hours
   startingGear: SCRiflemanGear
-  icon: "JobIconSC"
+  icon: "JobIconSCRifleman"
   supervisors: job-supervisors-ws
   canBeAntag: false
   setPreference: false
@@ -48,15 +48,15 @@
     components:
     - type: NpcFactionMember
       factions:
-      - PDV
+      - NFPirates
   - !type:AddLanguageSpecial
     languagesSpoken:
-    - Asher
+    - Freespeak
     languagesUnderstood:
-    - Asher
+    - Freespeak
 
 - type: playTimeTracker
-  id: JobPdvSC
+  id: JobPdvSCRifleman
 
 - type: job
   id: PdvSCMedic
@@ -78,12 +78,12 @@
     components:
     - type: NpcFactionMember
       factions:
-      - PDV
+      - NFPirates
   - !type:AddLanguageSpecial
     languagesSpoken:
-    - Asher
+    - Freespeak
     languagesUnderstood:
-    - Asher
+    - Freespeak
 
 - type: playTimeTracker
   id: JobPdvSCMedic
@@ -108,12 +108,12 @@
     components:
     - type: NpcFactionMember
       factions:
-      - PDV
+      - NFPirates
   - !type:AddLanguageSpecial
     languagesSpoken:
-    - Asher
+    - Freespeak
     languagesUnderstood:
-    - Asher
+    - Freespeak
 
 - type: playTimeTracker
   id: JobPdvSCAutorifleman
@@ -138,12 +138,12 @@
     components:
     - type: NpcFactionMember
       factions:
-      - PDV
+      - NFPirates
   - !type:AddLanguageSpecial
     languagesSpoken:
-    - Asher
+    - Freespeak
     languagesUnderstood:
-    - Asher
+    - Freespeak
 
 - type: playTimeTracker
   id: JobPdvSCTechnician

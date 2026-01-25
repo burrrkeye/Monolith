@@ -27,3 +27,47 @@
     - Snout
     - HeadTop
     - HeadSide
+
+# MARSOC Variant
+
+- type: entity
+  parent: [ClothingHeadHardsuitBase, ShowMedicalIcons]
+  id: ClothingHeadHelmetHardsuitM86Mk4
+  name: M86Mk4 helmet
+  description: Modified from M86 series helmets, outfitted with night-vision equipment and refined gel-layers.
+  components:
+  - type: Sprite
+    sprite: _Mono/Clothing/Head/Hardsuits/m86_mk4.rsi
+  - type: Clothing
+    sprite: _Mono/Clothing/Head/Hardsuits/m86_mk4.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.08
+    lowPressureMultiplier: 1000
+  - type: ThermalVision
+    activateSound: null
+    deactivateSound: null
+    isEquipment: true
+    color: "#1186ff"
+    lightRadius: 15
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+  - type: HideLayerClothing
+    slots:
+    - Hair
+    - Snout
+    - HeadTop
+    - HeadSide
+  - type: RadarConsole
+    followEntity: true
+  - type: ActivatableUI
+    key: enum.RadarConsoleUiKey.Key
+    singleUser: true
+  - type: UserInterface
+    interfaces:
+      enum.RadarConsoleUiKey.Key:
+        type: RadarConsoleBoundUserInterface

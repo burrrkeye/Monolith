@@ -12,7 +12,7 @@
     shoes: ClothingShoesBootsMagAdv
     id: MarsocFTLPDA
     pocket1: CrowbarPocket
-    pocket2: WeaponEnergyRevolver
+    pocket2: WeaponPulsePistol
     belt: ClothingBeltWebbingsNormalTSFMC
     neck: ClothingNeckIFFCyan
     suitStorage: OxygenTankFilled
@@ -39,7 +39,7 @@
     - AmmoBox762x39mmFMJ
     - AmmoBox762x39mmIncendiary
     - MotionDetectorBorg
-    - HandHeldMassScannerBorg
+    - WeaponGrapplingGun
 
 # Operative
 - type: startingGear
@@ -55,7 +55,7 @@
     shoes: ClothingShoesBootsMagAdv
     id: MarsocPDA
     pocket1: CrowbarPocket
-    pocket2: WeaponPistolMk58
+    pocket2: WeaponPulsePistol
     belt: ClothingBeltWebbingsNormalTSFMC
     neck: ClothingNeckIFFCyan
     suitStorage: OxygenTankFilled
@@ -82,7 +82,7 @@
     - AmmoBox762x39mmFMJ
     - AmmoBox762x39mmIncendiary
     - MotionDetectorBorg
-    - HandHeldMassScannerBorg
+    - WeaponGrapplingGun
 
 # Marksman
 - type: startingGear
@@ -98,7 +98,7 @@
     shoes: ClothingShoesBootsMagAdv
     id: MarsocPDA
     pocket1: CrowbarPocket
-    pocket2: WeaponPistolMk58
+    pocket2: WeaponPulsePistol
     belt: ClothingBeltWebbingsNormalTSFMC
     neck: ClothingNeckIFFCyan
     suitStorage: OxygenTankFilled
@@ -126,7 +126,7 @@
     - AmmoBox8x65mmSKR
     - AmmoBox8x65mmSKRIncendiary
     - MotionDetectorBorg
-    - HandHeldMassScannerBorg
+    - WeaponGrapplingGun
 
 # Corpsman
 - type: startingGear
@@ -142,7 +142,7 @@
     shoes: ClothingShoesBootsMagAdv
     id: MarsocPDA
     pocket1: CrowbarPocket
-    pocket2: WeaponPistolMk58
+    pocket2: WeaponPulsePistol
     belt: ClothingBeltWebbingsNormalTSFMC
     neck: ClothingNeckIFFCyan
     suitStorage: OxygenTankFilled
@@ -174,7 +174,7 @@
     - AmmoBox46x30mmFMJ
     - AmmoBox46x30mmIncendiary
     - MotionDetectorBorg
-    - HandHeldMassScannerBorg
+    - WeaponGrapplingGun
 
 # SGO (holy RMC)
 - type: startingGear
@@ -190,7 +190,7 @@
     shoes: ClothingShoesBootsMagAdv
     id: MarsocPDA
     pocket1: CrowbarPocket
-    pocket2: WeaponPistolMk58
+    pocket2: WeaponPulsePistol
     belt: ClothingBeltWebbingsNormalTSFMC
     neck: ClothingNeckIFFCyan
     suitStorage: OxygenTankFilled
@@ -217,7 +217,7 @@
     - MagazineSmartLMG
     - MagazineSmartLMG
     - MotionDetectorBorg
-    - HandHeldMassScannerBorg
+    - WeaponGrapplingGun
 
 # Autorifleman (holy arma 3)
 - type: startingGear
@@ -233,7 +233,7 @@
     shoes: ClothingShoesBootsMagAdv
     id: MarsocPDA
     pocket1: CrowbarPocket
-    pocket2: WeaponPistolMk58
+    pocket2: WeaponPulsePistol
     belt: ClothingBeltWebbingsNormalTSFMC
     neck: ClothingNeckIFFCyan
     suitStorage: OxygenTankFilled
@@ -259,4 +259,4 @@
     - AmmoBox68x52mmCaseless
     - AmmoBox68x52mmCaselessBig
     - MotionDetectorBorg
-    - HandHeldMassScannerBorg
+    - WeaponGrapplingGun
