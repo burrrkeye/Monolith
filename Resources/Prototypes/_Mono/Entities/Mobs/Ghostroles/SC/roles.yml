@@ -25,7 +25,7 @@
     - NamesLastMilitary
   - type: NpcFactionMember
     factions:
-    - NFPirates
+    - PirateNF
   - type: Company
     companyName: PDV
   - type: SurgerySpeedModifier
