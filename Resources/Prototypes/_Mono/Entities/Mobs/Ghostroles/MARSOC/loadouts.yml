@@ -15,7 +15,6 @@
     pocket2: WeaponPulsePistol
     belt: ClothingBeltWebbingsNormalTSFMC
     neck: ClothingNeckIFFCyan
-    suitStorage: OxygenTankFilled
   inhand:
   - WeaponRifleAnnie
   storage:
@@ -58,7 +57,6 @@
     pocket2: WeaponPulsePistol
     belt: ClothingBeltWebbingsNormalTSFMC
     neck: ClothingNeckIFFCyan
-    suitStorage: OxygenTankFilled
   inhand:
   - WeaponRifleAnnie
   storage:
@@ -101,7 +99,6 @@
     pocket2: WeaponPulsePistol
     belt: ClothingBeltWebbingsNormalTSFMC
     neck: ClothingNeckIFFCyan
-    suitStorage: OxygenTankFilled
   inhand:
   - WeaponRifleMR8C
   - WeaponCaseAbielle
@@ -145,7 +142,6 @@
     pocket2: WeaponPulsePistol
     belt: ClothingBeltWebbingsNormalTSFMC
     neck: ClothingNeckIFFCyan
-    suitStorage: OxygenTankFilled
   inhand:
   - WeaponSubMachineGunWt550
   storage:
@@ -193,7 +189,6 @@
     pocket2: WeaponPulsePistol
     belt: ClothingBeltWebbingsNormalTSFMC
     neck: ClothingNeckIFFCyan
-    suitStorage: OxygenTankFilled
   inhand:
   - WeaponSmartLmg
   storage:
@@ -236,7 +231,6 @@
     pocket2: WeaponPulsePistol
     belt: ClothingBeltWebbingsNormalTSFMC
     neck: ClothingNeckIFFCyan
-    suitStorage: OxygenTankFilled
   inhand:
   - WeaponLMGGrizzly
   storage:

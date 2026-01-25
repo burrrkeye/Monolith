@@ -105,7 +105,6 @@
     width: 1.0
   - type: Loadout
     prototypes: [MarsocOperativeGear]
-    roleLoadout: [RoleSurvivalTankOnly]
   - type: GhostRole
     name: ghost-role-information-marsoc-operative-name
     description: ghost-role-information-marsoc-description
@@ -125,8 +124,3 @@
   - type: MindShield
   - type: SurgerySpeedModifier
     speedModifier: 1.5
-
-- type: roleLoadout
-  id: RoleSurvivalTankOnly
-  groups:
-  - GroupEVATank

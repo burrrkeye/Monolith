@@ -5,7 +5,7 @@
     jumpsuit: ClothingUniformJumpsuitCombatSuitDigitalBlack
     back: ClothingBackpackERTEngineer
     mask: ClothingMaskGasSyndicate
-    eyes: ClothingEyesThermalVisionGoggles
+    eyes: ClothingEyesHudSecurity
     ears: ClothingHeadsetAltFreelancer
     gloves: ClothingHandsGlovesTacticalCombatBlack
     outerClothing: ClothingOuterHardsuitPDVStellicCommander
@@ -15,7 +15,6 @@
     pocket2: WeaponPistolAnaconda
     belt: ClothingBeltWebbingsNormalBlack
     neck: ClothingNeckIFFOrange
-    suitStorage: OxygenTankFilled
   inhand:
   - WeaponRifleM90
   storage:
@@ -48,7 +47,7 @@
     jumpsuit: ClothingUniformJumpsuitCombatSuitDigitalBlack
     back: ClothingBackpackERTEngineer
     mask: ClothingMaskGasSyndicate
-    eyes: ClothingEyesThermalVisionGoggles
+    eyes: ClothingEyesHudSecurity
     ears: ClothingHeadsetAltFreelancer
     gloves: ClothingHandsGlovesTacticalCombatBlack
     outerClothing: ClothingOuterHardsuitPDVStellic
@@ -58,7 +57,6 @@
     pocket2: WeaponPistolAnaconda
     belt: ClothingBeltWebbingsNormalBlack
     neck: ClothingNeckIFFOrange
-    suitStorage: OxygenTankFilled
   inhand:
   - WeaponRifleM90
   storage:
@@ -91,7 +89,7 @@
     jumpsuit: ClothingUniformJumpsuitCombatSuitDigitalBlack
     back: ClothingBackpackERTEngineer
     mask: ClothingMaskGasSyndicate
-    eyes: ClothingEyesThermalVisionGoggles
+    eyes: ClothingEyesHudSecurity
     ears: ClothingHeadsetAltFreelancer
     gloves: ClothingHandsGlovesTacticalCombatBlack
     outerClothing: ClothingOuterHardsuitPDVStellic
@@ -101,7 +99,6 @@
     pocket2: WeaponPistolAnaconda
     belt: ClothingBeltWebbingsBigBlack
     neck: ClothingNeckIFFOrange
-    suitStorage: OxygenTankFilled
   inhand:
   - WeaponLightMachineGunL6
   storage:
@@ -139,7 +136,7 @@
     jumpsuit: ClothingUniformJumpsuitCombatSuitDigitalBlack
     back: ClothingBackpackERTEngineer
     mask: ClothingMaskGasSyndicate
-    eyes: ClothingEyesThermalVisionGoggles
+    eyes: ClothingEyesHudSecurity
     ears: ClothingHeadsetAltFreelancer
     gloves: ClothingHandsGlovesTacticalCombatBlack
     outerClothing: ClothingOuterHardsuitPDVStellicMedic
@@ -149,7 +146,6 @@
     pocket2: WeaponPistolAnaconda
     belt: ClothingBeltWebbingsNormalBlack
     neck: ClothingNeckIFFNeutral
-    suitStorage: OxygenTankFilled
   inhand:
   - WeaponSubMachineGunAtreides
   storage:
@@ -187,7 +183,7 @@
     jumpsuit: ClothingUniformJumpsuitCombatSuitDigitalBlack
     back: ClothingBackpackERTEngineer
     mask: ClothingMaskGasSyndicate
-    eyes: ClothingEyesThermalVisionGoggles
+    eyes: ClothingEyesHudSecurity
     ears: ClothingHeadsetAltFreelancer
     gloves: ClothingHandsGlovesTacticalCombatBlack
     outerClothing: ClothingOuterHardsuitPDVStellic
@@ -197,7 +193,6 @@
     pocket2: WeaponPistolAnaconda
     belt: ClothingBeltWebbingsNormalBlack
     neck: ClothingNeckIFFOrange
-    suitStorage: OxygenTankFilled
   inhand:
   - WeaponRifleKhallamar
   storage:
