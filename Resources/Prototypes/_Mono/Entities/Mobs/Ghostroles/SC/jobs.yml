@@ -11,15 +11,21 @@
   supervisors: job-supervisors-ws
   canBeAntag: false
   setPreference: false
+  access:
+  - Pirate
+  - PDVCommand
+  - Mercenary
   accessGroups:
-  - AllAccess
+  - GeneralAccess
   special:
   - !type:AddComponentSpecial
     components:
     - type: NpcFactionMember
       factions:
-      - NFPirates
-  - !type:AddLanguageSpecial
+      - PirateNF
+  - !type:AddImplantSpecial
+    implants: [ FreelanceTrackingImplant ]
+  - !type:AddLanguageSpecial # Monolith - Languages
     languagesSpoken:
     - Freespeak
     languagesUnderstood:
@@ -41,15 +47,21 @@
   supervisors: job-supervisors-ws
   canBeAntag: false
   setPreference: false
+  access:
+  - Pirate
+  - PDVCommand
+  - Mercenary
   accessGroups:
-  - AllAccess
+  - GeneralAccess
   special:
   - !type:AddComponentSpecial
     components:
     - type: NpcFactionMember
       factions:
-      - NFPirates
-  - !type:AddLanguageSpecial
+      - PirateNF
+  - !type:AddImplantSpecial
+    implants: [ FreelanceTrackingImplant ]
+  - !type:AddLanguageSpecial # Monolith - Languages
     languagesSpoken:
     - Freespeak
     languagesUnderstood:
@@ -66,20 +78,26 @@
   requirements:
   - !type:OverallPlaytimeRequirement
     time: 108000 # 30 hours
-  startingGear: SCMedic
+  startingGear: SCMedicGear
   icon: "JobIconSCMedic"
   supervisors: job-supervisors-ws
   canBeAntag: false
   setPreference: false
+  access:
+  - Pirate
+  - PDVCommand
+  - Mercenary
   accessGroups:
-  - AllAccess
+  - GeneralAccess
   special:
   - !type:AddComponentSpecial
     components:
     - type: NpcFactionMember
       factions:
-      - NFPirates
-  - !type:AddLanguageSpecial
+      - PirateNF
+  - !type:AddImplantSpecial
+    implants: [ FreelanceTrackingImplant ]
+  - !type:AddLanguageSpecial # Monolith - Languages
     languagesSpoken:
     - Freespeak
     languagesUnderstood:
@@ -101,15 +119,21 @@
   supervisors: job-supervisors-ws
   canBeAntag: false
   setPreference: false
+  access:
+  - Pirate
+  - PDVCommand
+  - Mercenary
   accessGroups:
-  - AllAccess
+  - GeneralAccess
   special:
   - !type:AddComponentSpecial
     components:
     - type: NpcFactionMember
       factions:
-      - NFPirates
-  - !type:AddLanguageSpecial
+      - PirateNF
+  - !type:AddImplantSpecial
+    implants: [ FreelanceTrackingImplant ]
+  - !type:AddLanguageSpecial # Monolith - Languages
     languagesSpoken:
     - Freespeak
     languagesUnderstood:
@@ -131,15 +155,21 @@
   supervisors: job-supervisors-ws
   canBeAntag: false
   setPreference: false
+  access:
+  - Pirate
+  - PDVCommand
+  - Mercenary
   accessGroups:
-  - AllAccess
+  - GeneralAccess
   special:
   - !type:AddComponentSpecial
     components:
     - type: NpcFactionMember
       factions:
-      - NFPirates
-  - !type:AddLanguageSpecial
+      - PirateNF
+  - !type:AddImplantSpecial
+    implants: [ FreelanceTrackingImplant ]
+  - !type:AddLanguageSpecial # Monolith - Languages
     languagesSpoken:
     - Freespeak
     languagesUnderstood:
