@@ -22,7 +22,7 @@
     back:
     - RadioHandheldNF
     - BaseSecurityUplinkRadioDeputy
-    - DoubleEmergencyOxygenTank
+    - DoubleEmergencyOxygenTankFilled
     - MedkitCombatFilled
     - MedkitCombatFilled
     - SyringeCaseAltFilled
@@ -65,7 +65,7 @@
     back:
     - RadioHandheldNF
     - BaseSecurityUplinkRadioDeputy
-    - DoubleEmergencyOxygenTank
+    - DoubleEmergencyOxygenTankFilled
     - MedkitCombatFilled
     - MedkitCombatFilled
     - SyringeCaseAltFilled
@@ -109,7 +109,7 @@
     back:
     - RadioHandheldNF
     - BaseSecurityUplinkRadioDeputy
-    - DoubleEmergencyOxygenTank
+    - DoubleEmergencyOxygenTankFilled
     - MedkitCombatFilled
     - MedkitCombatFilled
     - SyringeCaseAltFilled
@@ -152,7 +152,7 @@
     back:
     - RadioHandheldNF
     - BaseSecurityUplinkRadioDeputy
-    - DoubleEmergencyOxygenTank
+    - DoubleEmergencyOxygenTankFilled
     - MedkitCombatFilled
     - MedkitCombatFilled
     - SyringeCaseAltFilled
@@ -200,7 +200,7 @@
     back:
     - RadioHandheldNF
     - BaseSecurityUplinkRadioDeputy
-    - DoubleEmergencyOxygenTank
+    - DoubleEmergencyOxygenTankFilled
     - MedkitCombatFilled
     - MedkitCombatFilled
     - SyringeCaseAltFilled
@@ -243,7 +243,7 @@
     back:
     - RadioHandheldNF
     - BaseSecurityUplinkRadioDeputy
-    - DoubleEmergencyOxygenTank
+    - DoubleEmergencyOxygenTankFilled
     - MedkitCombatFilled
     - MedkitCombatFilled
     - SyringeCaseAltFilled

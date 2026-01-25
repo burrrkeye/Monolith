@@ -12,6 +12,7 @@
     width: 1.0
   - type: Loadout
     prototypes: [SCRiflemanGear]
+    roleLoadout: [RoleSurvivalTankOnly]
   - type: GhostRole
     name: ghost-role-information-sc-name
     description: ghost-role-information-sc-description
@@ -30,6 +31,11 @@
     companyName: PDV
   - type: SurgerySpeedModifier
     speedModifier: 1.5
+
+- type: roleLoadout
+  id: RoleSurvivalTankOnly
+  groups:
+  - GroupEVATank
 
 - type: roleLoadout
   id: RoleSurvivalTankOnly

@@ -22,7 +22,7 @@
     back:
     - RadioHandheldNF
     - BasePirateUplinkPirateCrew
-    - DoubleEmergencyOxygenTank
+    - DoubleEmergencyOxygenTankFilled
     - MedkitCombatFilled
     - MedkitCombatFilled
     - SyringeCaseAltFilled
@@ -65,7 +65,7 @@
     back:
     - RadioHandheldNF
     - BasePirateUplinkPirateCrew
-    - DoubleEmergencyOxygenTank
+    - DoubleEmergencyOxygenTankFilled
     - MedkitCombatFilled
     - MedkitCombatFilled
     - SyringeCaseAltFilled
@@ -108,7 +108,7 @@
     back:
     - RadioHandheldNF
     - BasePirateUplinkPirateCrew
-    - DoubleEmergencyOxygenTank
+    - DoubleEmergencyOxygenTankFilled
     - MedkitCombatFilled
     - MedkitCombatFilled
     - SyringeCaseAltFilled
@@ -156,7 +156,7 @@
     back:
     - RadioHandheldNF
     - BasePirateUplinkPirateCrew
-    - DoubleEmergencyOxygenTank
+    - DoubleEmergencyOxygenTankFilled
     - MedkitCombatFilled
     - MedkitCombatFilled
     - SyringeCaseAltFilled
@@ -204,7 +204,7 @@
     back:
     - RadioHandheldNF
     - BasePirateUplinkPirateCrew
-    - DoubleEmergencyOxygenTank
+    - DoubleEmergencyOxygenTankFilled
     - MedkitCombatFilled
     - SyringeCaseAltFilled
     - JetpackMiniFilled
