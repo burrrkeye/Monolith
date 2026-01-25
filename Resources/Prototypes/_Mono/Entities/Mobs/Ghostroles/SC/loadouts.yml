@@ -199,7 +199,7 @@
     neck: ClothingNeckIFFOrange
     suitStorage: OxygenTankFilled
   inhand:
-  - WeaponRifleM90
+  - WeaponRifleKhallamar
   storage:
     back:
     - RadioHandheldNF
@@ -217,6 +217,7 @@
     - PowerDrill
     - SyndicateJawsOfLife
     - Multitool
+    - WeaponRifleM90
     belt:
     - Magazine762x51mmFMJ
     - Magazine762x51mmFMJ
