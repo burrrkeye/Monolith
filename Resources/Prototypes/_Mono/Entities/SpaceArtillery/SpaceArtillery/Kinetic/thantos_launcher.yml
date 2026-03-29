@@ -40,7 +40,7 @@
     autoRecharge: true
     autoRechargeRate: 65
   - type: SpaceArtillery
-    powerChargeRate: 350
+    powerChargeRate: 65
     powerUsePassive: 65
     powerUseActive: 65
   - type: Actions
