@@ -17,15 +17,15 @@
   - type: FireControlRotate
   - type: AmmoCounter
   - type: Battery
-    maxCharge: 18000 # 1 april
-    startingCharge: 18000 # 1 april
+    maxCharge: 6500 # 1 april
+    startingCharge: 6500 # 1 april
   - type: ExaminableBattery
   - type: WirelessNetworkConnection
     range: 500
   - type: GunSignalControl #I'm not certain why a station only gun has it in the description.
   - type: Gun
     fireRate: 2
-    recoil: 0 # Mono 1s april :godo:
+    recoil: 6500 # Mono 1s april :godo:
     minAngle: 0
     maxAngle: 0
     # burstCooldown: 20
@@ -38,15 +38,15 @@
       path: /Audio/Weapons/Guns/EmptyAlarm/smg_empty_alarm.ogg
   - type: BatterySelfRecharger
     autoRecharge: true
-    autoRechargeRate: 300
+    autoRechargeRate: 65
   - type: SpaceArtillery
     powerChargeRate: 350
-    powerUsePassive: 100
-    powerUseActive: 0
+    powerUsePassive: 65
+    powerUseActive: 65
   - type: Actions
   - type: ProjectileBatteryAmmoProvider
     proto: ShipRailgunProjectile
-    fireCost: 3000 # 1april
+    fireCost: 650 # 1april
   - type: Fixtures
     fixtures:
       fix1:
@@ -84,7 +84,7 @@
   - type: ShipGunClass
     shipClass: Superheavy
   - type: ShipRepairable
-    repairTime: 67 # :godo: 
+    repairTime: 65 # :godo: 
     repairCost: 301 # haha 1st april
 
 
