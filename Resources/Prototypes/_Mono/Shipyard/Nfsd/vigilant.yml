@@ -1,10 +1,10 @@
-#Author: Starch(!)
+#Author: burkia on discord, burrrkeye on github
 
 - type: vessel
   id: Vigilant
   parent: BaseVesselAntag
   name: TSF-BNN Vigilant
-  description: Full frontal combat vessel mounted with a single Scylla, a Cerberus and a VESPERA missile launcher, outfitted with 2 L-1 for PD covering side arcs. Fast, shielded with MS-100 and armored up front.
+  description: Full frontal combat vessel mounted with a single Scylla, a 54-C Autopulser and a VESPERA missile launcher, outfitted with 2 L-1 for PD covering side arcs. Fast, shielded with MS-100 and armored up front.
   price: 139000 # Appraises around 1116k
   category: Medium
   group: Security
