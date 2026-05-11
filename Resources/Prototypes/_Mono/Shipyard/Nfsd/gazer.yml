@@ -6,6 +6,7 @@
   name: TSF-BNN Gazer
   description: Sporting a long ranged turbolaser and a long ranged warp drive, Gazer is very capable at keeping at its maximum range in siege operations.
   price: 204000 #appraises 170k pheeeeeew (youre literally paying 100k for just the gun and the ftl drive, zamn)
+  purchasable: false # voucher only
   category: Medium
   group: Security
   access: Security
