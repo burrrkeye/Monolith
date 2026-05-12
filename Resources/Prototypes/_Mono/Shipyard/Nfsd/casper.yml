@@ -5,7 +5,7 @@
   name: TSF-BNN Casper
   description: A Brawler Cruiser in use with the Federation. Armed with 6 Cerberus and 4 Marauder as its main armanent. Powered by a NFR.
   limit: 1 #this used to be 2 but i think i want it to feel more special like a T4 ship
-  price: 171862 #exact appraise price, not giving it an actual price since it will always remain an LPC, however, this is yet another example of small shipguns not having actual prices while big ones have garangutan pricing for very similiar damage outputs (price based on sprite sizes, lol, we gotta adress this sometime) 
+  price: 300000 #171862 exact appraise price, not giving it an actual price since it will always remain an LPC, however, this is yet another example of small shipguns not having actual prices while big ones have garangutan pricing for very similiar damage outputs (price based on sprite sizes, lol, we gotta adress this sometime) 
   purchasable: false # voucher only
   category: Large
   group: Security
