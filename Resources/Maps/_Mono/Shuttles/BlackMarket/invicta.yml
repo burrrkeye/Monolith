@@ -5204,9 +5204,9 @@ entities:
         DUE TO DESIGN FLAWS, UPON WIRING THE OUTPUT WIRES TO BOFORS' TRIGGER WIRES, IT WILL IMMEDIATELY FIRE A SHELL, MAKE SURE TO NOT AIM AT FRIENDLIES DURING THIS PROCESS
 
          Link Logic Gate Alpha 1's "Output" wire to Bofors Battery Alpha's "Trigger" wire. 
-         Link Logic Gate Bravo's "Output" wire to Bofors Battery Bravo's "Trigger" wire. 
-         Link Logic Gate Charlie's "Output" wire to Bofors Battery Charlie's "Trigger" wire. 
-         Link Logic Gate Delta's "Output" wire to Bofors Battery Delta's "Trigger" wire. 
+         Link Logic Gate Bravo 1's "Output" wire to Bofors Battery Bravo's "Trigger" wire. 
+         Link Logic Gate Charlie 1's "Output" wire to Bofors Battery Charlie's "Trigger" wire. 
+         Link Logic Gate Delta 1's "Output" wire to Bofors Battery Delta's "Trigger" wire. 
 
         Pressing the switch will now turn on Ripple Fire Mode where all 4 Bofors will fire in 5 seconds turns for non-stop sustained fire.
 
