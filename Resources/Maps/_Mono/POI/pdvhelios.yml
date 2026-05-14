@@ -44683,6 +44683,8 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -7.6524754,25.511616
       parent: 1
+- proto: ShipVoucherProspector
+  entities:
   - uid: 8419
     components:
     - type: Transform

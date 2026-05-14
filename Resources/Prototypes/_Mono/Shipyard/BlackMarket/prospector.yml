@@ -1,0 +1,39 @@
+#Author: burkia
+
+- type: vessel
+  id: Prospector
+  parent: BaseVesselAntag
+  name: BT-Y Prospector
+  description: Mining rig in use with the Dynasty, has a special ore collector array that does not require crews to collect ore by hand. Armed with 2 Fangs to dish out punishment if contested.
+  limit: 2 # 2 is good
+  price: 100000 # Appraises at 82k lol, but still performs better than Spyglass nonetheless
+  purchasable: false # voucher only
+  category: Medium
+  group: BlackMarket
+  access: Pirate
+  shuttlePath: /Maps/_Mono/Shuttles/BlackMarket/prospector.yml
+  guidebookPage: Null
+  class:
+  - Pirate
+  - Frigate
+  engine:
+  - AME
+
+- type: gameMap
+  id: Prospector
+  mapName: 'Prospector'
+  mapPath: /Maps/_Mono/Shuttles/BlackMarket/prospector.yml
+  minPlayers: 0
+  stations:
+    Prospector:
+      stationProto: StandardFrontierVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Prospector PDV{1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          availableJobs:
+            Pirate: [ 0, 0 ]
+            PdvBorg: [ 0, 0 ]

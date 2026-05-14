@@ -1390,6 +1390,21 @@
       tags:
       - FactionStaticUplinkPdv
 
+- type: listing
+  id: UplinkSecurityT1VoucherProspector
+  name:  uplink-pdv-t1-prospector-voucher-name
+  description: uplink-pdv-t1-prospector-voucher-desc
+  productEntity: ShipVoucherProspector
+  cost:
+    Doubloon: 100
+  categories:
+  - UplinkPdvVouchers
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - FactionStaticUplinkPdv
+
 # end T1
 
 # start T2
